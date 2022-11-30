@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Rubik';    
+}
+.banner{
+    background-image: url(./images/Banner.jpg);
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.95;
+        height: 80vh;
+  
+}
+.content{
+    backdrop-filter: blur(.9px);
+    padding-left: 13rem;
+    padding-top: 13rem;
+    
+    
+}
+.content h1{
+    font-size: 4rem;
+}
+.content .p1{
+    font-size: 1.2rem;
+}
+@media screen and (max-width:768px) {
+    .banner{
+        background-image: url(./images/Banner.jpg);
+        box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .content{
+        backdrop-filter: blur(.9px);
+        padding-top: 1rem;
+        padding-left: 2rem;
+    }
+    .content h1{
+        font-size: 2rem;
+        
+    }
+    .content .p1{
+        font-size: 1rem;
+    }
+}
+
+.cardspage{
+    background-image: url(./images/pexels-gradienta-7130490.jpg);
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+        height: auto;
+  
+}
+
+.cards{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.imgsize{
+    height: 150px;
+    width: 100px;
+    border-radius: 7px;
+}
+.cardpagebottom{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:750px) {
+    .cardpagebottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    
+    }
+    
+}
+.img2banner{
+    height: 300px;
+    width: 350px;
+}
+.secondpagecontent{
+    height: auto;
+    width: 400px;
+    
+    text-align: center;
+    padding-top: 40px;
+}
+.specialmenu{
+    background-image: url(./images/lauren-mancke-sil2Hx4iupI-unsplash.jpg);
+    /* opacity: 0.8; */
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+        height: auto;
+        width: 100%;
+  
+
+}
+.specialcards{
+    height: auto;
+    width: 60%;
+
+    
+}
+@media screen and (max-width:900px) {
+    .specialcards{
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    width: 100%;
+    
+    }
+    
+}
+
+.customer{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:750px) {
+    .customer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    
+    }
+    .secondpagecontent{
+        margin-top: 60px;
+    }
+    
+}
+.img1review{
+    height: 280px;
+    width: 350px;
+    border-radius: 13px;
+    border: 8px solid rgb(219, 228, 255);
+}
+.img2review{
+    height: 200px;
+    width: 250px;
+    border-radius: 13px;
+    position: absolute;
+    margin-left: -190px;
+    margin-top: 180px;
+    border: 10px solid rgb(248, 237, 237);
+}
+.brands{
+    
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 120px;
+    
+}
+.imgsizebrand{
+    height: 100px;
+    width: 70px;
+    border-radius: 7px;
+}
+.blog{
+    
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    background-image: url(./images/pexels-gradienta-7130490.jpg);
+    background-size: cover;
+    
+
+}
+.blog .cardblog{
+    width: 100%;
+    display: flex;
+}
+.date{
+    
+    height: 60px;
+    border: 3px solid rgb(243, 206, 206);
+    text-align: center;
+    padding-top: 11px;
+    width: 30%;
+}
+.card-body-blog{
+    width: 70%;
+    
+    
+}
+.footerpage{
+    
+    height: auto;
+    width: 100%;
+    
+    justify-content: center;
+    margin-top: 120px;
+    
+
+}
+.insta{
+    
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    
+
+}
+.imgsizeinsta{
+    height: 130px;
+    width: 200px;
+    border-radius: 7px;
+}
+.formsign{
+    
+    height: auto;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-top: 90px;
+
+}
+.forminput{
+    padding: 6px;
+    width: 220px;
+    border: rgb(55, 201, 62) 1px solid;
+}
+.formbtn{
+    position: absolute;
+    margin-left: -83px;
+    
+}
+.btn:hover,li:hover,img:hover{
+    transform: scale(1.05);
+    transition: .2s;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
